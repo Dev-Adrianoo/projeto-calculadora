@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <title>Calculadora</title>
+</head>
+<body>
+    <h1>Calculadora</h1>
+    <section id="Calculadora">
+        <p id="resultado"></p>
+        <table>
+            <tr>
+                <td><button class="botao" onclick="limparnumero('')">CE</button></td>
+                <td><button class="botao" onclick="clean('')">C</button></td>
+                <td><button class="botao" onclick="chamada('%')">%</button></td>
+                <td><button class="botao" onclick="chamada('/')">÷</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="chamada('7')">7</button></td>
+                <td><button class="botao" onclick="chamada('8')">8</button></td>
+                <td><button class="botao" onclick="chamada('9')">9</button></td>
+                <td><button class="botao" onclick="chamada('*')">X</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="chamada('4')">4</button></td>
+                <td><button class="botao" onclick="chamada('5')">5</button></td> 
+                <td><button class="botao" onclick="chamada('6')">6</button></td>
+                <td><button class="botao" onclick="chamada('-')">-</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="chamada('1')">1</button></td>
+                <td><button class="botao" onclick="chamada('2')">2</button></td>
+                <td><button class="botao" onclick="chamada('3')">3</button></td>
+                <td><button class="botao" onclick="chamada('+')">+</button></td>
+            </tr>
+            <tr>
+                <td><button class="botao" onclick="chamada('0')">0</button></td>
+                <td><button class="botao"onclick="chamada(',')">,</button></td>
+<td colspan="2"><button style="width: 143px;" class="botao" onclick="calcular('')">=</button onclick="chamada('0')"></td>
+            </tr>
+            
+        </table>
+    </section>
+</body>
+</html>
